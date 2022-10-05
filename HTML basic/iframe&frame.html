@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>iframe&frame</title>
+  </head>
+  <body>
+    <!-- iframe -->
+    <iframe src="http://opentutorials.org" width="90%" height="300"
+    frameborder ="1" scrolling="yes">
+    </iframe>
+
+    <!-- frame(찾아서 다시 배워보기) -->
+    <frameset cols="40%, 60%">
+      <frameset rows="25%, 75%">
+        <frame src="contents of frame1.html">
+        <frame src="contents of frame2.html">
+      </frameset>
+      <frame name="content" src="contents of frame3.html">
+      <!-- <noframeset>: frame이 보이지 않을 때, 화면에 표시할 내용들을 입력 -->
+    </frameset>
+  </body>
+</html>
